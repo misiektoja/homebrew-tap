@@ -6,25 +6,25 @@ cask "certrally" do
     end
   end
 
-  version "0.4.0"
+  version "0.4.1"
 
   on_macos do
     on_arm do
-      sha256 "707dc90176eea1447a65037b7dc7a3d7a13d8cea86968fc11ff0bb85e2a8f7a4"
+      sha256 "0f5cf15a509ce95224b544c231c73aa36c12818ec44eb2caeb60f4edbea6fbc3"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "90a1539b3773e331f400d3b1285ba69f354a6b4c0addf4f3fbd9824470e8e3cc"
+      sha256 "369c7eff7b04e2724538ded52964f56c05867bfe3708941541fd777ab31caaac"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f07cb333a7a0aed9d7eb5b0f15673fa990793f049cdfbe03c00fad9e5f807556"
+      sha256 "2f02a119d404f2cf30a341fba489587d9cffdcb30b281e005c49a9777754f99e"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "322eb41b518f4af75f80066e141aee0b174004cded69a20546b18c7c5a352bca"
+      sha256 "31b23de9cb196c773602291190e51a8b88c3bd2a40dbabd6b03bf44eb1af8fa0"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_linux_amd64.tar.gz"
     end
   end
