@@ -6,31 +6,31 @@ cask "certrally" do
     end
   end
 
-  version "0.3.0"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      sha256 "bb9152ce8fe44571ef04f60cc669db76f6a1e861885fe153d8d986fa260918f9"
+      sha256 "707dc90176eea1447a65037b7dc7a3d7a13d8cea86968fc11ff0bb85e2a8f7a4"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "289434ed3944522c212625e6b77d5c2300177b1d28bafd877186f0b9fa1f7519"
+      sha256 "90a1539b3773e331f400d3b1285ba69f354a6b4c0addf4f3fbd9824470e8e3cc"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a42f128569b53f794d0160235bc3cce1ebfab18c6f83c67812e5e158b5e41b1f"
+      sha256 "f07cb333a7a0aed9d7eb5b0f15673fa990793f049cdfbe03c00fad9e5f807556"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "272c4a0a411070acbc029f6b39929892c84acb12e76b58ca9119203a11b6487c"
+      sha256 "322eb41b518f4af75f80066e141aee0b174004cded69a20546b18c7c5a352bca"
       url "https://github.com/misiektoja/certrally/releases/download/v#{version}/certrally_#{version}_linux_amd64.tar.gz"
     end
   end
 
   name "certrally"
-  desc "Command line client for certificate enrollment with CMP and EST"
+  desc "Command line client for certificate enrollment with CMP, EST and SCEP"
   homepage "https://github.com/misiektoja/certrally"
 
   livecheck do
